@@ -1,0 +1,120 @@
+@media only screen {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        display: grid;
+        grid-template-areas: 
+    'red red orange orange orange orange' 
+    'green green green green green green' 
+    'brown brown blue blue purple purple';
+        grid-gap: 1vh;
+        height: 97vh;
+    }
+    body > div {
+        padding: 1vh;        
+    }
+    .red {
+        background-color: red;
+        grid-area: red;
+    }
+    .orange {
+        background-color: orange;
+        grid-area: orange;
+    }
+    .green {
+        background-color: green;
+        grid-area: green;
+    }
+    .brown {
+        background-color: brown;
+        grid-area: brown;
+    }
+    .blue {
+        background-color: blue;
+        grid-area: blue;
+    }
+    .purple {
+        background-color: purple;
+        grid-area: purple;
+    }
+}
+@media only screen and (min-width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        display: grid;
+        grid-template-areas: 
+    'green' 
+    'purple'
+    'red' 
+    'red';
+        grid-gap: 1vh;
+        height: 97vh;
+    }
+    body > div {
+        padding: 1vh;        
+    }
+    .green {
+        background-color: green;   
+        grid-area: green;    
+    }
+    .purple {
+        background-color: purple;
+        grid-area: purple;
+    }
+    .red {
+        background-color: red;
+        grid-area: red;
+    }
+    .brown {
+        display: none;
+    }
+    .blue {
+        display: none;
+    }
+    .orange {
+        display: none;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        display: grid;
+        grid-template-areas: 
+    'orange orange purple purple purple purple' 
+    'red red red red red red' 
+    'green green green blue blue blue';
+        grid-gap: 1vh;
+        height: 97vh;
+    }
+    body > div {
+        padding: 1vh;        
+    }
+    .green {
+        background-color: green;   
+        grid-area: green;    
+    }
+    .purple {
+        background-color: purple;
+        grid-area: purple;
+    }
+    .red {
+        background-color: red;
+        grid-area: red;
+    }
+    .blue {
+        background-color: blue;
+        grid-area: blue;
+    }
+    .orange {
+        background-color: orange;
+        grid-area: orange;
+    }
+    .brown {
+        display: none;
+    }
+}

@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+p, h1 {
+    padding: 10px;
+}
+
+.top {
+    overflow: hidden;
+    width: 95%;
+    height: 10%;
+    top: 0;
+    margin-left: 2.5%;
+    background-color: rgba(125, 143, 226, 0.5);
+    display: flex;
+    border-radius: 0px 0px 15px 15px; 
+}
+
+.centre {
+    width: 70%;
+
+    margin-top: 2vh;
+
+    background-color: rgba(189, 189, 189, 0.25);
+    margin-left: 15%;
+    border-radius: 15px 15px 15px 15px;
+    display: table;
+}
+.centre div {
+    margin-left: 5%;
+    display: table;
+    background-color: rgba(122, 182, 216, 0.623);
+    border-radius: 15px 15px 15px 15px;
+    transition-duration: 0.5s;
+}
+.centre div:hover{
+    background-color: rgb(122, 182, 216);
+    transition-duration: 0.5s;
+}
+
+.bottom {
+    overflow: hidden;
+    min-height: 10vh;
+    margin-top: 83%;
+    width: 95%;
+    margin-left: 2.5%;
+    left: 0;
+    margin-bottom: 0;
+    background-color: rgba(125, 143, 226, 0.5);
+    border-radius: 15px 15px 0px 0px;
+}
